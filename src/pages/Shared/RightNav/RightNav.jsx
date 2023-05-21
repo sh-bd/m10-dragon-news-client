@@ -7,15 +7,15 @@ import QZone from '../QZone/QZone';
 const RightNav = () => {
     return (
         <div>
-            <h4>Login with</h4>
+            <h4 className='mt-4'>Login with</h4>
             <Button className='mb-2' variant="outline-primary"><FaGoogle /> Login with Google</Button>
             <Button variant="outline-secondary"><FaGithub /> Login with Github</Button>
             <div>
-                <h4>Find us</h4>
+                <h4 className='mt-4'>Find us</h4>
                 <ListGroup>
-                    <ListGroup.Item><FaFacebook /> Facebook</ListGroup.Item>
-                    <ListGroup.Item><FaTwitter /> Twitter</ListGroup.Item>
-                    <ListGroup.Item><FaInstagram /> Instagram </ListGroup.Item>
+                    <ListGroup.Item><FaFacebook className='me-1' /> Facebook</ListGroup.Item>
+                    <ListGroup.Item><FaTwitter className='me-1' /> Twitter</ListGroup.Item>
+                    <ListGroup.Item><FaInstagram className='me-1' /> Instagram </ListGroup.Item>
                 </ListGroup>
                 <QZone></QZone>
                 <div>
